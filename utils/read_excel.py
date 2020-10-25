@@ -9,7 +9,7 @@ class ExcelReader():
     def get_reg_data():
         """Getting data for registration"""
 
-        wb = xlrd.open_workbook(r"./test_data.xlsx")
+        wb = xlrd.open_workbook(r"D:\Tutoriale\Python\SeleniumTesting\SeleniumAutomationPractice\utils\test_data.xlsx")
         sheet = wb.sheet_by_index(0)
         reg_data = []
 
